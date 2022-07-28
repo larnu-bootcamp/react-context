@@ -10,7 +10,6 @@ function UserContextProvider({children}) {
   const [todos, setTodos] = useTodos();
 
 
-
   const updateUser = () => {
     const name = names[Math.floor(Math.random() * names.length)];
     setUser(name);
